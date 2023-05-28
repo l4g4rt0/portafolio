@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Logo.png" alt="logo de alura" >
+    </header>
+    <main>
+        
+        <section>
+            <div class="secciones">
+                <div class="div_seccion_1" >
+                    <div class="div_text_area">
+                        <textarea  class="text-area"  placeholder="Ingrese el texto aquí"></textarea>
+                    </div>
+                    
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                    <div class="botones">
+                        <button class="btn-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="botonDesencriptar()" >Desencriptar</button>
+                    </div>
+                    
+                    
+                </div>
+                <div class="div_seccion_2">
+                    <div class="div_mensaje">
+                        <textarea class="mensaje"></textarea>
+                        <h2 class="mensaje_h2" onclick="botonEncriptar()">No se encontro ningun mensaje</h2>
+                        <h3 class="mensaje_h3" onclick="botonEncriptar()">Ingrese aquí el texto a encriptar o desencriptar</h3>
+                        <div class="copiar">
+                            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h6>&COPY JUAN MANUEL IGLESIAS</h6>
+        </div>
+            
+        
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
